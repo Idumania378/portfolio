@@ -697,7 +697,6 @@ nav ul li a.active::after {
 .social-link {
     width: 40px;
     height: 40px;
-    background-color: #ff3131;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -707,9 +706,38 @@ nav ul li a.active::after {
     transition: background-color 0.3s;
 }
 
-.social-link:hover {
-    background-color: #e62c2c;
+/* LinkedIn */
+.social-link[href*="linkedin.com"] {
+    background-color: #0077b5;
 }
+.social-link[href*="linkedin.com"]:hover {
+    background-color: #005582;
+}
+
+/* GitHub */
+.social-link[href*="github.com"] {
+    background-color: #333;
+}
+.social-link[href*="github.com"]:hover {
+    background-color: #24292e;
+}
+
+/* Twitter (X) */
+.social-link[href*="x.com"] {
+    background-color: #000;
+}
+.social-link[href*="x.com"]:hover {
+    background-color: #333;
+}
+
+/* Instagram */
+.social-link[href*="instagram.com"] {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.social-link[href*="instagram.com"]:hover {
+    background: linear-gradient(45deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433);
+}
+
 
 .contact-form {
     flex: 1;
