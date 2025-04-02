@@ -124,6 +124,7 @@ nav ul li a.active::after {
     background-size: cover;
     background-position: center;
     display: flex;
+    opacity: 0.9;
     justify-content: center;
     align-items: center;
     text-align: center;
